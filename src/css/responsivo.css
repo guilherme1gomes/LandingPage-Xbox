@@ -1,0 +1,353 @@
+@media (max-width: 319px) {
+
+  .menu {
+    display: block;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .cabecalho .menu .cabe-botao{
+    display: none;
+  }
+
+  #menu-toggle:checked + .menu-icon + .menu .cabe-botao {
+    display: none;
+}  
+
+
+.image-home{
+  width: 300px;
+  padding: 20px;
+}
+
+.title{
+  font-size: 26px;
+}
+
+.sub-title{
+  font-size: 12px;
+}
+
+.pass-text{
+  font-size: 28px;
+}
+
+.cabecalho .logo .img-logo{
+  width: 180px;
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  align-items: center;
+}
+
+.container2{
+  height: 800px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+margin-top: 100px;
+}
+
+.cartao{
+  width: 200px;
+  height: 200px;
+  padding-right: 25px;
+  padding-top: 50px;
+}
+
+.iconn{
+  font-size: 32px;
+}
+
+.info-card{
+  position: relative;
+  top: 20px;
+  font-size: 16px;
+}
+
+.faq-text{
+font-size: 32px;
+padding-left: 20px;
+}
+
+.faq-question{
+font-size: 20px;
+}
+
+.faq-content {
+position: relative;
+top: 60px;
+left: -10px;
+}
+
+footer{
+height: 150px;
+margin-top: 200px;
+}
+
+footer h4{
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.container3{
+display: flex;
+flex-wrap: wrap;
+height: 100%;
+}
+
+.jogos{
+width: 50%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .menu {
+      display: block;
+    }
+    
+    #menu-toggle {
+      display: none;
+    }
+    
+    .cabecalho .menu .cabe-botao{
+      display: none;
+    }
+
+    #menu-toggle:checked + .menu-icon + .menu .cabe-botao {
+      display: none;
+  }  
+
+
+  .image-home{
+    width: 300px;
+    padding: 20px;
+  }
+
+  .title{
+    font-size: 26px;
+  }
+
+  .sub-title{
+    font-size: 14px;
+  }
+
+  .cabecalho .logo .img-logo{
+    width: 180px;
+  }
+
+  .container1{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+  }
+
+  .container2{
+    height: 800px;
+  }
+  
+  .cards{
+    display: flex;
+    flex-direction: column;
+  margin-top: 100px;
+  }
+  
+  .cartao{
+    width: 200px;
+    height: 200px;
+    padding-right: 25px;
+    padding-top: 50px;
+  }
+
+  .iconn{
+    font-size: 32px;
+}
+
+.info-card{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+}
+
+.faq-text{
+  font-size: 32px;
+  padding-left: 20px;
+}
+
+.faq-question{
+  font-size: 24px;
+}
+
+.faq-content {
+  position: relative;
+  top: 60px;
+  left: -10px;
+}
+
+footer{
+  height: 150px;
+  margin-top: 100px;
+}
+
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.jogos{
+  width: 50%;
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  
+    .menu {
+      display: block;
+    }
+    
+    #menu-toggle {
+      display: none;
+    }
+    
+    .cabecalho .menu .cabe-botao{
+      display: none;
+    }
+
+    #menu-toggle:checked + .menu-icon + .menu .cabe-botao {
+      display: none;
+  }  
+
+  .image-home{
+    width: 300px;
+    padding: 20px;
+  }
+
+  .title{
+    font-size: 26px;
+  }
+
+  .sub-title{
+    font-size: 18px;
+  }
+
+  .cabecalho .logo .img-logo{
+    width: 200px;
+  }
+
+  .container1{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+  }
+
+  .cards{
+    position: relative;
+    top: -50px;
+  }
+
+  .cartao{
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+  }
+
+  .iconn{
+    font-size: 32px;
+}
+
+.info-card{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+
+.faq-text{
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.faq-content {
+  position: relative;
+  top: 60px;
+  left: -10px;
+}
+
+footer{
+  height: 150px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+  .image-home{
+    width: 300px;
+  }
+
+  .title{
+    font-size: 26px;
+  }
+
+  .sub-title{
+    font-size: 22px;
+  }
+
+  .cards{
+    margin-top: -60px;
+ }
+
+ .menu {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon{
+  display: none;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+ .cards{
+    margin-top: -30px;
+ }
+
+ .menu {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon{
+  display: none;
+}
+
+}
+
+@media (min-width: 1200px) {
+  .menu {
+    display: none;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-icon{
+    display: none;
+  }
+}
